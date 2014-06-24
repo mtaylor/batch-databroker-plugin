@@ -1,12 +1,12 @@
-Simple_DataBroker_PlugIn
+Batch DataBroker Plugin
 ========================
 
-Sample Simple DataBroker PlugIn
+Batch Data Broker Plugin
 
 License
 =======
 
-Copyright (c) 2014, Arjuna Technologies Limited, Newcastle-upon-Tyne, England.
+Copyright (c) 2014, Red Hat
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.

@@ -7,16 +7,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.arjuna.dbplugins</groupId>
-    <artifactId>simple-plugin-parent</artifactId>
-    <version>1.0.0p1m1</version>
+    <groupId>com.jboss.databroker.plugins</groupId>
+    <artifactId>batch-databroker-plugin-parent</artifactId>
+    <version>1.0.0</version>
 
     <packaging>pom</packaging>
 
-    <name>Simple DataBroker PlugIn Parent</name>
+    <name>Batch DataBroker Plug In</name>
 
     <properties>
-        <version.com.arjuna.databroker>1.0.0p1m1</version.com.arjuna.databroker>
+        <version.com.arjuna.databroker>1.0.0</version.com.arjuna.databroker>
 
         <jboss-as.username>username</jboss-as.username>
         <jboss-as.password>password</jboss-as.password>
@@ -30,8 +30,8 @@
     </properties>
 
     <modules>
-        <module>simple-plugin</module>
-        <module>simple-plugin-ear</module>
+        <module>batch-databroker-plugin</module>
+        <module>batch-databroker-plugin-ear</module>
     </modules>
 
     <dependencyManagement>
@@ -43,14 +43,6 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-
-            <!-- dependency>
-                <groupId>com.arjuna.databroker</groupId>
-                <artifactId>server</artifactId>
-                <version>${version.com.arjuna.databroker}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency -->
         </dependencies>
     </dependencyManagement>
 
